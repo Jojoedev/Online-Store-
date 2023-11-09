@@ -1,0 +1,37 @@
+
+img{
+    width: 300px;
+    height: 250px;
+}
+
+.shopItems{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));   
+    grid-gap: 20px; 
+    cursor: pointer;
+    padding: 0 50px 0 50px;
+    
+}
+
+.addToBtn{
+    background-color: teal;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.addToBtn:hover{
+    background-color: blue;
+}
+
+.removeToBtn{
+    background-color: rgb(110, 26, 26);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.removeToBtn:hover{
+    background-color: red;  
+}

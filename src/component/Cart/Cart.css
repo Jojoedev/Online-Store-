@@ -1,0 +1,13 @@
+
+.productPrice, .productName{
+    color: blue;
+    font-size: 1.5rem;
+}
+
+.cartList{
+    padding: 20px;
+}
+
+.inputText{
+    width: 15px;
+}
