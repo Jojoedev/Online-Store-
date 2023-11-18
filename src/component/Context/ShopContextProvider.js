@@ -23,8 +23,16 @@ const ShopContextProvider = ( {children} ) =>{
     }
 
     const removeFromCart = (itemId) =>{
-        setCartItems((prev) => ({...prev, [itemId]: prev[itemId] -1}))
-    }
+                if(cartItems[itemId] > 0){
+
+                setCartItems((prev) => ({...prev, [itemId]: prev[itemId] -1}))
+                } 
+                else
+                {
+                    return;
+                }                
+            }
+
 
 
     const totalAmount = () =>{

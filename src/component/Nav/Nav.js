@@ -21,8 +21,7 @@ const Nav = () =>{
         <div className="navbar">
             <Link className="text1" to="/">Online Shop</Link>            
             <Link className="text2" to ="/cart"><ShoppingCart size={40} /> <> {TotalCartItems()} </>
-             <span style={{margin: '20px'}}>Total Amount: N{totalAmount()}</span>
-            
+             <span style={{margin: '20px'}}> Amount: N{totalAmount()}  </span>
             </Link>
            
         </div>
