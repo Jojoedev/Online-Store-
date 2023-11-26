@@ -13,7 +13,7 @@ const ShopContextProvider = ( {children} ) =>{
         for(let i = 1;  i < data.length + 1; i++){
             cart[i] = 0;
         }
-    return cart;
+       return cart;
     }
 
     const [cartItems, setCartItems] = useState(initialState());
@@ -33,8 +33,6 @@ const ShopContextProvider = ( {children} ) =>{
                 }                
             }
 
-
-
     const totalAmount = () =>{
         let amount = 0;
         for(const item in cartItems){
@@ -46,6 +44,7 @@ const ShopContextProvider = ( {children} ) =>{
         }
         return amount;
     }
+
     return(
         <ShopContext.Provider value ={{
             cartItems,

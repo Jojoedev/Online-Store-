@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import {ShopContext}  from "../component/Context/ShopContextProvider";
-
+import './Shop.css';
 
 
 const ShopItem = ({ item }) =>{
@@ -11,7 +11,7 @@ const ShopItem = ({ item }) =>{
     
     return(
         <div>
-            <div>
+            <div className="shopItemWrapper">
                 <img src={item.image} alt="imgs" />
                 <div>
                     <p>{item.name}</p>

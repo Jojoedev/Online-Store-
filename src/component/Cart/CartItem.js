@@ -1,12 +1,13 @@
 import { useContext } from "react";
 import { ShopContext } from "../Context/ShopContextProvider";
+import './Cart.css';
 
 
 const CartItem = ({product}) =>{
     const  { addToCart,removeFromCart, cartItems} = useContext(ShopContext);
     
     return(
-            <div>
+            <div className="cartWrapper">
                 <img src={product.image} alt="pix" />
                 <div>
                 <div className="productName">{product.name}</div>
