@@ -3,7 +3,10 @@
 .navbar{
     background-color: rgb(58, 3, 59);
     height: 50px;
-    
+    width: 100%;
+    position: fixed;
+    margin-bottom: 50px;
+
 }
 
 .text1, .text2{
@@ -14,7 +17,13 @@
     
 }
 .text2{
-    padding: 20px;
+    margin: 1.6rem;
     
 }
 
+.Amount{
+    margin-right: auto;
+    color: aliceblue;
+    text-decoration: none;
+    
+}

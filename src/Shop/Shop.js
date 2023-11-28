@@ -1,15 +1,23 @@
-import data from '../component/data';
+
 import ShopItem from './ShopItem';
 import './Shop.css';
 
 
-const Shop = () =>{
+const Shop = ( { shopDb, productDetail, details, hideList } ) =>{
+   
+
     return(
         
         <div className='shopItems'>
-            {data.map((item) =>(
-                < ShopItem key= {item.id} item = {item} />
-            ))}
+            {shopDb.map((item) =>(
+                < ShopItem key= {item.id} 
+                item = {item} 
+                productDetail ={productDetail}
+                 details={details} 
+                 hideList = {hideList}
+                 
+                 />
+            ))} 
         </div>
        
     );

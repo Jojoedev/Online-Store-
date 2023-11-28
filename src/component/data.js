@@ -17,6 +17,7 @@ const data = [
      id: 1,
      name: 'Boss Lady Handbag',
      image: image5,
+     category: 'business',
      price: '2400'   
     },
 
@@ -24,11 +25,13 @@ const data = [
         id: 2,
         name: 'Female Handbag',
         image: image11,
+        category: 'old school',
         price: '3600'   
        },
        {
         id: 3,
         name: 'Female Handbag',
+        category: 'business',
         image: image3,
         price: '2700'   
        },
@@ -36,12 +39,14 @@ const data = [
        {
         id: 4,
         name: 'First Lady Handbag',
+        category: 'casual',
         image: image4,
         price: '3000'   
        },
        {
         id: 5,
         name: 'Female Handbag',
+        category: 'business',
         image: image1,
         price: '2480'   
        },
@@ -49,6 +54,7 @@ const data = [
        {
         id: 6,
         name: 'Posh Female Handbag',
+        category: 'casual',
         image: image6,
         price: '2400'   
        },
@@ -56,18 +62,21 @@ const data = [
        {
         id: 7,
         name: 'Female Handbag',
+        category: 'old-school',
         image: image7,
         price: '2960'   
        },
        {
         id: 8,
         name: 'Female Handbag',
+        category: 'business',
         image: image8,
         price: '2440'   
        },
        {
         id: 9,
         name: 'Female Handbag',
+        category: 'casual',
         image: image9,
         price: '2970'   
        },
@@ -75,6 +84,7 @@ const data = [
        {
         id: 10,
         name: 'Vintage Female Handbag',
+        category: 'old-school',
         image: image10,
         price: '3070'   
        },
@@ -82,15 +92,19 @@ const data = [
        {
         id: 11,
         name: 'Female Handbag',
+        category: 'casual',
         image: image2,
         price: '2970'   
        },
        {
         id: 12,
         name: 'Classic Female Handbag',
+        category: 'business',
         image: image12,
         price: '3290'   
-       }
+       } 
     ]
+    
+
 
     export default data;

@@ -1,0 +1,27 @@
+
+.navList{
+    display: inline-flex;
+}
+
+.navList a {
+    text-decoration: none;
+    
+    border: 1px solid blue;
+    width: 15px;
+}
+.navList li {
+    list-style: none;
+}
+
+li{
+    display: inline-flex;
+    padding: 20px;
+       
+}
+
+
+.activeLi:active{
+    
+    
+}
+

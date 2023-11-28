@@ -3,7 +3,8 @@
     background-color: rgb(58, 3, 59);
     height: 60px;
     color: aliceblue;
-    
+    position: relative;    
+    margin-bottom: 0;
 }
 
 .article{

@@ -29,6 +29,7 @@ const ShopContextProvider = ( {children} ) =>{
                 } 
                 else
                 {
+                  alert("Quantity cannot be less than 0")
                     return;
                 }                
             }

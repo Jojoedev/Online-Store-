@@ -1,11 +1,15 @@
 
+*{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
+}
+
 img{
     width: 300px;
     height: 250px;
 }
 
 .shopItemWrapper{
-    margin-top: 20px;
+    margin-top: 50px;
     border: 2px black solid;
     box-shadow: 2px 2px 3px black;
     border-radius: 10px;
@@ -17,7 +21,7 @@ img{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));   
     grid-gap: 20px; 
-    cursor: pointer;
+    
     padding: 0 50px 0 50px;
     
     
@@ -26,22 +30,64 @@ img{
 .addToBtn{
     background-color: teal;
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
-    margin: 20px;
+    margin: 10px;
 }
 
 .addToBtn:hover{
     background-color: blue;
 }
 
+.itemText{
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 5px;
+}
 .removeToBtn{
     background-color: rgb(110, 26, 26);
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 .removeToBtn:hover{
     background-color: red;  
+}
+
+.productDetail{
+    color: teal;
+    background-color: aliceblue;
+    border: 2px solid goldenrod;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.productDetail:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+}
+.detailWrapper{
+    box-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius:  8px;
+    max-height: fit-content;
+}
+
+.detailText{
+    font-size: 1.2rem;
+    color: red;
+}
+
+.detailText:hover{
+    cursor: pointer;
+}
+
+.itemSection{
+    padding-top: 100px;
 }
